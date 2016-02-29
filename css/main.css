@@ -1,5 +1,6 @@
 html {
   font: Georgia, serif;
+  color: #512200;
   background-color: #f0eee8;
   box-sizing: border-box;
 }
@@ -25,6 +26,14 @@ h2 {
   padding: 2px;
 }
 
+body {
+  color: #512200;
+  background-color: #dcd4cd;
+  padding: 15px;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+}
+
 main {
   margin: 6px;
   border-top: 2px solid #9a816d;
@@ -32,7 +41,7 @@ main {
 
 p {
   font-size: 1rem;
-  display:inline-block;
+  display: inline-block;
 }
 
 dd, dt {
@@ -57,25 +66,20 @@ div {
 }
 
 .link-card {
-  color: #512200;
-  background-color: #dcd4cd;
   text-decoration: none;
-  display: inline-block;
-  padding: 15px;
-  border: 3px solid #9a816d;
-  border-radius: 3px;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
+  border-color: #cabdb2;
 }
 
-.link-card:hover div {
+.link-card:hover .btn {
   background-color: #512200;
 }
 
 footer {
   text-align: center;
   margin-top: 15px;
-  border-top:2px solid #9a816d;
+  border-top: 2px solid #9a816d;
 }
